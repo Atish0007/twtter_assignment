@@ -1,0 +1,188 @@
+body{
+    font-family: 'Quicksand';
+}
+
+.navbar-brand{
+    margin-right: -25rem !important;
+}
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+}
+.twit_img{
+    float: unset;
+}
+.navbar-toggler{
+    margin-top:unset;
+}  
+@media screen and (max-width:550px){
+    .navbar-brand{
+        margin-right: unset !important;
+    }
+    .twit_img{
+        float: right;
+    }
+    .navbar-toggler{
+        margin-top:-3rem;
+    }
+}
+.twot_cls1{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    height: auto;
+    max-width: 340px;
+    margin-bottom:20px;
+}
+.twPc-block{ display: block;}
+.twPc-bg {
+    background-image: url(https://pbs.twimg.com/profile_banners/50988711/1384539792/600x200);
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-bottom: 1px solid #e1e8ed;
+    border-radius: 4px 4px 0 0;
+    height: 95px;
+    width: 100%;
+}
+.follw_btn{
+    margin: -35px -10px 0;
+    text-align: right;
+    width: 100%;}
+.twPc_Link {
+    background-color: #fff;
+    border-radius: 6px;
+    float: left;
+    margin: -25px 10px 0 10px;;
+    max-width: 100%;
+    padding: 1px;
+}
+.twPc_Img {
+    border: 2px solid #fff;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 72px;
+    width: 72px;
+}
+.twPc_Username { margin: 10px 0 0; }
+.twPc_divName {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.twPc_divName a { color: inherit !important;}
+.username_fnt{
+    color: #428bca;
+    text-decoration: none;
+}
+.twts_div {
+    margin-left: 11px;
+    padding: 25px 0;
+}
+ul.twts_ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.twts_ul{
+    box-sizing: border-box;
+    display: table;
+    margin: 0;
+    min-width: 100%;
+    padding: 0;
+    table-layout: auto;
+}
+.twts_li {
+    display: table-cell;
+    padding: 0;
+    vertical-align: top;
+}
+.twPc-StatLabel {
+    color: #8899a6;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out 0s;
+}
+.twPc-block {
+    display: block !important;
+}
+.twt_cont {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.15s ease-in-out 0s;
+}
+.twot_cls2{
+    width: 100%;
+    height: auto;
+    background: #c9eaff;
+    border-radius: 4px 4px 0 0;
+    margin-bottom:20px;
+}
+.twtpost_img {
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 50px;
+    float: left;
+}
+.txtbx_div{
+    float: left;
+    margin-left:5px;
+    margin-top: 20px;
+}
+.tweet_btn{
+    float: right;
+    margin-right: 15px;
+    border-radius: 20px;
+    margin-top: -5px;
+}
+/* Image Upload */
+.image-upload > input { display: none; }
+.image-upload img
+{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 6rem;
+    margin-top: 5px;
+}
+.tweet_desc{
+    width: 100%;
+    height: auto;
+    background: #f7f7f7;
+    border: 1px solid #efe0e0;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.desc_edit_btn{
+    padding: 3px;
+    width: 40px;
+    height: 30px;
+}
+/* Update Modal */
+.update_image_upload > input { display: unset; }
+.update_image_upload img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-top: 10px;
+}
+.profile_info{margin-top: 10px;margin-left: 10px;color: #886d6d;font-size: 14px;}
+.profile_image > input { display: unset; }
+.profile_image img {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    margin-left: -4rem;
+}
+.modl_header{
+    font-size: 20px;
+    font-weight: 600;
+}
