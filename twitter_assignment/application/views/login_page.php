@@ -1,6 +1,18 @@
 <?php $this->load->view('public/header'); ?>   
 <link rel="stylesheet" href="<?php echo base_url()?>assets/my_style/login_style.css">
 
+<style>
+    body{
+    padding-top:4.2rem;
+    padding-bottom:4.2rem;
+    background:rgba(0, 0, 0, 0.76);
+    background-image: url('<?php echo base_url()?>assets/image/login.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: 'Quicksand';
+}
+</style>
+
 <br>
 <div class="container">
     <div class="row">
